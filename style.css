@@ -1,0 +1,51 @@
+body{
+    background-image: linear-gradient(blueviolet, rgb(212, 71, 205));
+    color:white;
+    height: 100%;
+    background-position: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}.section{
+    padding: 10px 400px;
+}
+.container{
+    border:3px white solid;
+    border-radius: 30px;;
+    margin:10px 40px;
+    box-shadow: 10px 10px 60px black;
+}
+.row1{
+    padding: 30px;
+    text-align: center;
+}
+.row21,.row31{
+    padding: 10px;
+}
+p{
+    font-size: 30px;
+}
+input{
+    border-radius: 5px;
+    background-color: rgba(192, 192, 192, 0.521);
+    border: none;
+    height: 40px;
+}
+
+.list{
+    padding-top: 10px;
+}
+button{
+    padding:17px;
+    width:100%;
+    margin:20px 0px;
+    background-color: rgb(110, 31, 110);
+    color:white;
+    transition: 0.3s;
+    border:none;
+    border-radius: 10px;
+}
+button:hover{
+    background-color: rgb(248, 217, 243);
+    color:black;
+    margin:30px 0px;
+}
